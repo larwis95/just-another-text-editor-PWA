@@ -22,6 +22,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: "./index.html",
         title: "JATE",
+        favicon: "favicon.ico",
       }),
       // Injects our custom servie worker
       new InjectManifest({
