@@ -11,8 +11,18 @@
 body {
   margin: 0;
   background-color: var(--monoaki);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
 }
 
@@ -82,7 +92,7 @@ h1 {
 
 .btn {
   text-align: center;
-  display: inline-block;
+  display: none;
   padding: 0.5rem 1.2rem;
   margin: 0;
   text-decoration: none;
@@ -92,7 +102,9 @@ h1 {
   outline: none;
   color: #1a1a1a;
   background-color: #aeaeae;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  transition:
+    color 0.2s ease-in-out,
+    background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
